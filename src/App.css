@@ -27,14 +27,6 @@ body {
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
-.display-current-container {
-    direction: rtl;
-    overflow-x: auto;    
-    white-space: nowrap;   
-    text-align: right;    
-    max-width: 100%;    
-  }
-  
 
 .display {
     display: flex;
@@ -43,8 +35,6 @@ body {
     height: 6rem; 
     justify-content: space-between;
 }
-
-
   
 .display-row {
     display: flex;
@@ -87,9 +77,9 @@ body {
 
 
 .row {
-    display: grid;   
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px; 
+    display: grid;                     /* grid */
+    grid-template-columns: repeat(4, 1fr); /* 4 kolommen van gelijke breedte */
+    gap: 1px;                          /* gap-px */
 }
 
 

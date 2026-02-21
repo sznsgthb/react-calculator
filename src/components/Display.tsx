@@ -14,9 +14,8 @@ function Display({ currentOperand, previousOperand, operation, formatOperand} : 
             </div>
 
             <span className="display-value previous">  {previousOperand !== null ? formatOperand(previousOperand) : ""} {operation}</span>
-            <div className="display-current-container">
-                <span className="display-value current">{formatOperand(currentOperand)}</span>
-            </div>
+            <span className="display-value current">{formatOperand(currentOperand)}</span>
+
         </div>
     );
 }
