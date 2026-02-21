@@ -29,10 +29,10 @@ body {
 
 .display-current-container {
     direction: rtl;
-    overflow-x: auto;        /* scroll als content te groot is */
-    white-space: nowrap;     /* voorkomt dat getal op nieuwe regel gaat */
-    text-align: right;       /* getal rechts uitlijnen */
-    max-width: 100%;         /* neem niet meer ruimte in dan de display */
+    overflow-x: auto;    
+    white-space: nowrap;   
+    text-align: right;    
+    max-width: 100%;    
   }
   
 
@@ -87,9 +87,9 @@ body {
 
 
 .row {
-    display: grid;                     /* grid */
-    grid-template-columns: repeat(4, 1fr); /* 4 kolommen van gelijke breedte */
-    gap: 1px;                          /* gap-px */
+    display: grid;   
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px; 
 }
 
 

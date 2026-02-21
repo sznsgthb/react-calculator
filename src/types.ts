@@ -57,8 +57,6 @@ export type ButtonProps = React.HTMLAttributes<HTMLButtonElement> &
   VariantProps<ButtonVariantsType>;
 
 
-// TYPES FOR EVENT-HANDLERS
-
 //TYPES FOR STATE
 
 export type CalculatorState = {
